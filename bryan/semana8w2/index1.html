@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stile.css">
+    <style>
+
+        input{
+
+            width: 200px;
+            height: 30px;
+            font-size: 18px;
+        }
+        div{
+            text-align: center;
+        }
+        h1{
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+<div>
+    <h1>Login</h1>
+<form method="POST" action="login_registrar.php">
+<input type="text" name="txtusuario" placeholder="Ingresar usuario">
+<input type="password" name="txtpassword" placeholder="Contraseña a Registrar">
+<input style="color: #00663f; background-color: #99CCFF"type="submit" value="Iniciar sesion" name="btnlogin">
+</form>
+
+<h1>Registrar</h1>
+<form method="POST" action="login_registrar.php">
+    <input type="text" name="txtusuario" placeholder="Ingresar usuario">
+    <input type="password" name="txtpassword" placeholder="Contraseña a Registrar">
+    <input style="color: #00663f; background-color: #99CCFF" type="submit" value="Registrar" name="btnregistrar">
+</form>
+
+</div>
+</body>
+</html>
